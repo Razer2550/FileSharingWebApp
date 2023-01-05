@@ -434,3 +434,21 @@ img {
     height: 40px;
     flex-shrink: 0;
 }
+
+.right-area {
+    padding: 24px;
+    overflow: auto;
+}
+
+.right-area-header {
+    &-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .more-action {
+        width: 24px;
+        height: 24px;
+    }
+}
