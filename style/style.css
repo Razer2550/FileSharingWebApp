@@ -175,4 +175,30 @@ a {
 .access-icon svg {
   width: 36px;
   height: 36px;
+}
+
+.access-link-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 8px;
+}
+.access-link-wrapper:nth-child(1) .access-icon {
+  background-color: #6166fe;
+}
+.access-link-wrapper:nth-child(2) .access-icon {
+  background-color: #6166fe;
+}
+.access-link-wrapper:nth-child(3) .access-icon {
+  background-color: #3275f7;
+}
+.access-link-wrapper:nth-child(4) .access-icon {
+  background-color: #3275f7;
+}
+.access-link-wrapper:nth-child(5) .access-icon {
+  background-color: #22244a;
+}
+.access-link-wrapper:nth-child(6) .access-icon {
+  background-color: #22244a;
 }/*# sourceMappingURL=style.css.map */
