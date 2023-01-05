@@ -498,4 +498,35 @@ img:hover img {
   width: 40%;
   background-color: #4bc0dd;
   display: block;
+}
+
+.received-item-line {
+  height: 150px;
+  width: 100%;
+  padding-top: 12px;
+  display: flex;
+  padding-left: 4px;
+}
+
+.progress-line {
+  height: 100%;
+  width: 2px;
+  background-color: #22244a;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+}
+.progress-line:before, .progress-line:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #22244a;
+  transform: translateX(-50%);
+  left: 50%;
+}
+.progress-line:after {
+  bottom: 0;
 }/*# sourceMappingURL=style.css.map */
