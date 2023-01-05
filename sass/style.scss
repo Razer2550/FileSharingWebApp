@@ -288,3 +288,20 @@ img {
         margin: 0;
     }
 }
+
+.video-name, .video-subtext {
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    &.medium {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    &.tiny {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
