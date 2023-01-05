@@ -58,4 +58,21 @@ a {
 .left-area.show {
   transform: translateX(0);
   opacity: 1;
+}
+
+.app-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--dark-font);
+  margin-bottom: 32px;
+}
+
+.item-link {
+  color: var(--light-font);
+  margin-bottom: 32px;
+  transition: 0.2s;
+}
+.item-link.active {
+  color: var(--dark-font);
 }/*# sourceMappingURL=style.css.map */
