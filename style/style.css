@@ -311,4 +311,36 @@ img:hover img {
   line-height: 16px;
   color: #000;
   padding: 8px;
+}
+
+.column-header {
+  font-size: 12px;
+  line-height: 16px;
+  color: #888da9;
+}
+
+.name-cell {
+  width: 40%;
+  word-break: break-all;
+}
+.name-cell.pdf:before {
+  content: "PDF";
+  background-color: #e2e9f8;
+  color: #5a8ff7;
+}
+.name-cell.jpg:before {
+  content: "JPG";
+  background-color: #e4e2f1;
+  color: #302d7d;
+}
+.name-cell:before {
+  border-radius: 4px;
+  font-size: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 4px;
 }/*# sourceMappingURL=style.css.map */
