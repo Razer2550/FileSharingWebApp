@@ -558,4 +558,49 @@ img:hover img {
 }
 .received-files-info span {
   color: #7a8dc5;
+}
+
+.btn-show-left-area,
+.btn-show-left-area {
+  position: absolute;
+  top: 24px;
+  width: 32px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  cursor: pointer;
+  display: none;
+}
+
+.btn-show-left-area {
+  left: 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.btn-show-right-area {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+.btn-close-left,
+.btn-close-right {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  color: var(--light-font);
+  outline: none;
+  cursor: pointer;
+  display: none;
+}
+
+.show .btn-close-left,
+.show .btn-close-right {
+  display: block;
 }/*# sourceMappingURL=style.css.map */
