@@ -360,4 +360,34 @@ img:hover img {
   height: 16px;
   outline: none;
   cursor: pointer;
+}
+
+.fixed.main-area-header {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  padding: 12px 40px;
+  transition: 0.2s;
+  -webkit-animation: sticky 0.5s forwards;
+          animation: sticky 0.5s forwards;
+}
+
+@-webkit-keyframes sticky {
+  0% {
+    transform: translateY(-88px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes sticky {
+  0% {
+    transform: translateY(-88px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }/*# sourceMappingURL=style.css.map */

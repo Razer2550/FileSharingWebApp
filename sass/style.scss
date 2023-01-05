@@ -389,3 +389,23 @@ img {
     outline: none;
     cursor: pointer;
 }
+
+.fixed.main-area-header {
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    padding: 12px 40px;
+    transition: .2s;
+    animation: sticky .5s forwards;
+}
+
+@keyframes sticky {
+    0% {
+        transform: translateY(-88px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
