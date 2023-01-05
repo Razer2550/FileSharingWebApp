@@ -303,4 +303,12 @@ img:hover img {
 }
 .video-subtext-row {
   display: table-row-group;
+}
+
+.table-cell {
+  display: table-cell;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000;
+  padding: 8px;
 }/*# sourceMappingURL=style.css.map */
