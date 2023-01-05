@@ -452,3 +452,49 @@ img {
         height: 24px;
     }
 }
+
+.download-item-line {
+    padding: 12px 0;
+}
+
+.line-header {
+    font-size: 12px;
+    line-height: 16px;
+    color: #888da9;
+}
+
+.download-area {
+    background-color: #eceffb;
+    border-radius: 12px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.download-item-texts {
+    padding: 0 12px;
+
+    p {
+        line-height: 16px;
+        margin: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 150px;
+    }
+}
+
+.download-text-header {
+    font-size: 12px;
+}
+
+.download-text-info {
+    color: #888da9;
+    font-size: 10px;
+
+    span {
+        margin-left: 8px;
+    }
+}
