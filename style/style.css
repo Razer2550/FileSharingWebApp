@@ -201,4 +201,16 @@ a {
 }
 .access-link-wrapper:nth-child(6) .access-icon {
   background-color: #22244a;
+}
+
+.access-text {
+  color: var(--light-font);
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.content-section-line,
+.content-part-line {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */

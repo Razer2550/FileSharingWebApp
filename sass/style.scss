@@ -222,3 +222,15 @@ a {
         }
     }
 }
+
+.access-text {
+    color: var(--light-font);
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.content-section-line,
+.content-part-line {
+    display: flex;
+    justify-content: space-between;
+}
