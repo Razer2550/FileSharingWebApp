@@ -75,3 +75,16 @@ a {
     }
 }
 
+.btn-logout {
+    border: none;
+    background-color: transparent;
+    color: var(--light-font);
+    margin-top: auto;
+    cursor: pointer;
+    transition: .2s;
+
+    &:hover {
+        color: var(--dark-font);
+    }
+}
+

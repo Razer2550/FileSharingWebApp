@@ -75,4 +75,16 @@ a {
 }
 .item-link.active {
   color: var(--dark-font);
+}
+
+.btn-logout {
+  border: none;
+  background-color: transparent;
+  color: var(--light-font);
+  margin-top: auto;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.btn-logout:hover {
+  color: var(--dark-font);
 }/*# sourceMappingURL=style.css.map */
