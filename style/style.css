@@ -97,4 +97,9 @@ a {
   border-radius: 0px 10px 10px 0;
   padding-bottom: 24px;
   position: relative;
+}
+
+.main-area-header {
+  padding: 24px 40px;
+  background: linear-gradient(97deg, rgb(242, 247, 253) 0%, rgb(240, 244, 253) 90%);
 }/*# sourceMappingURL=style.css.map */
