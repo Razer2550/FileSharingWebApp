@@ -155,3 +155,10 @@ a {
         color: #8683d6;
     }
 }
+
+.access-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -8px;
+}

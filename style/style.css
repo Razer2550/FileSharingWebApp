@@ -153,4 +153,11 @@ a {
   font-size: 12px;
   line-height: 16px;
   color: #8683d6;
+}
+
+.access-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -8px;
 }/*# sourceMappingURL=style.css.map */
