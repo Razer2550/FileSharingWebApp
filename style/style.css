@@ -473,4 +473,13 @@ img:hover img {
 }
 .download-text-info span {
   margin-left: 8px;
+}
+
+.download-item-icon {
+  width: 32px;
+}
+
+.download-icon {
+  width: 24px;
+  fill: #4bc3a7;
 }/*# sourceMappingURL=style.css.map */
