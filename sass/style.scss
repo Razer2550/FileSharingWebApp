@@ -556,3 +556,34 @@ img {
         bottom: 0;
     }
 }
+
+.time {
+    margin-left: 12px;
+    font-size: 10px;
+    color: #888da9;
+}
+
+.received-items-content {
+    padding: 24px 10px;
+}
+
+.received-files {
+    display: flex;
+    height: 70%;
+
+    .image-wrapper {
+        margin-left: 6px;
+        display: flex;
+    }
+}
+
+.received-files-info {
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 12px;
+    margin-top: 12px;
+
+    span {
+        color: #7a8dc5;
+    }
+}
