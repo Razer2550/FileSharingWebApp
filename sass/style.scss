@@ -508,4 +508,19 @@ img {
     fill: #4bc3a7;
 }
 
+.progress-bar {
+    height: 4px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 2px;
+    background-color: #dadff3;
+    margin: 6px 0;
+}
+
+.progress {
+    height: 100%;
+    width: 40%;
+    background-color: #4bc0dd;
+    display: block;
+}
 
